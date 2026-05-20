@@ -11,20 +11,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><img src="favicon.png" alt="Logo" class="logo"></li>
-            <a href="index.html"><li> Home </li></a>
-            <a href="chisono.html"><li> Chi sono </li></a>
-            <a href="progetti.html"><li> Progetti </li></a>
-            <a href="contatti.html"><li> Contatti </li></a>
-        </ul>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="logo-container"><a href="index.html" class="logo-link"><img src="favicon.png" alt="Logo" class="logo"></a></li>
+                <a href="index.html"><li> Home </li></a>
+                <a href="chisono.html"><li> Chi sono </li></a>
+                <a href="progetti.html"><li> Progetti </li></a>
+                <a href="contatti.html"><li> Contatti </li></a>
+            </ul>
+        </div>
     </nav>
     <h1>Gabriele Corbetta</h1>
-    <p>Ciao!
-        Sono Gabriele Corbetta, ho 17 anni e frequento l'itis informatico <a href="https://www.isarchimede.edu.it/" target="_blank">"Archimede"</a> a Treviglio, città dove sono anche nato. 
-        Mi piace molto scherzare senza mai andare oltre i limiti e imparare cose nuove.
-    </p>
-    <img src="foto.JPEG" alt="Foto di me e di mia sorella" width="800" height="450">
+    <div class="body-container">
+        <div class="text-container">
+            <p>Ciao!
+                Sono Gabriele Corbetta, ho 17 anni e frequento l'itis informatico <a href="https://www.isarchimede.edu.it/" target="_blank">"Archimede"</a> a Treviglio. 
+                Mi piace molto scherzare senza mai andare oltre i limiti e imparare cose nuove.
+            </p>
+        </div>
+        <img src="picture.png" alt="Foto di kirby, Il mio spirito animale" class="picture">
+    </div>
 </body>
 </html>
