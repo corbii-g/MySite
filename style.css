@@ -1,5 +1,6 @@
 a {
   text-decoration: none;  
+  color: #e4cffd;
 }
 
 a:hover {
@@ -78,6 +79,19 @@ body, html {
 .body-container {
   display: flex;
   align-items:normal;
+}
+
+.text-picture-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.vertical-picture {
+  border-radius: 12px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+  height: 10%;
+  width: 10%;
 }
 
 .text-container {
