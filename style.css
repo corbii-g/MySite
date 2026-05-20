@@ -103,7 +103,7 @@ body, html {
   max-width: 30%; 
 }
 
-.body-container-whoami {
+.body-container-whoami .body-container-projects{
   display: flex;
   flex-direction: column;
 }
@@ -112,4 +112,123 @@ body, html {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   color: #ffffff;
+}
+
+.container-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.1);    padding: 2rem 2rem 2.5rem 2rem;
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    letter-spacing: -0.3px;
+    border-left: 4px solid #ff8c42;
+    padding-left: 1rem;
+    display: inline-block;
+    width: auto;
+}
+
+.intro-text {
+    background: #fef7e8;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    margin: 1.5rem 0 2rem 0;
+    color: #4a5c6b;
+    font-size: 1rem;
+    border-left: 5px solid #ffb347;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.consultancy-form {
+    text-align: left;
+    margin-top: 0.5rem;
+    color:#1a1a2e;
+}
+
+.form-label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #1a1a2e;
+    font-size: 0.95rem;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+    width: 90%;
+    padding: 0.8rem 1rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    border: 1px solid #cfdfe9;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+    outline: none;
+    color: #1f3e4b;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+    border-color: #ffb347;
+    box-shadow: 0 0 0 3px rgba(255, 180, 71, 0.2);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-date {
+    width: 90%;
+    padding: 0.8rem 1rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    border: 1px solid #cfdfe9;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+    outline: none;
+    color: #1f3e4b;
+    color-scheme: light;
+}
+
+.form-date:focus {
+    border-color: #ffb347;
+    box-shadow: 0 0 0 3px rgba(255, 180, 71, 0.2);
+}
+
+.btn-submit {
+    background: #0b2b3b;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.9rem 1.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.2s ease;
+    margin-top: 0.5rem;
+    font-family: inherit;
+    letter-spacing: 0.5px;
+}
+
+.btn-submit:hover {
+    background: #ff8c42;
+    color: #0b2b3b;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(255, 140, 66, 0.3);
+}
+
+.btn-submit:active {
+    transform: translateY(1px);
 }

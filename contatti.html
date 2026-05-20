@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="logo-container"><a href="index.html" class="logo-link"><img src="favicon.png" alt="Logo" class="logo"></a></li>
+                <a href="index.html"><li> Home </li></a>
+                <a href="chisono.html"><li> Chi sono </li></a>
+                <a href="progetti.html"><li> Progetti </li></a>
+                <a href="contatti.html"><li> Contatti </li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="form-title">Richiedi una consulenza</h1>
+
+    
+    <p class="intro-text">
+        Compila il modulo sottostante per richiedere informazioni o supporto personalizzato.
+        Il nostro team ti risponderà al più presto per offrirti la migliore assistenza.
+    </p>
+
+    <div class="container-form">
+        <form action="#" method="post" class="consultancy-form">
+            <!-- Campo: Nome e cognome -->
+            <label for="nome" class="form-label">Nome e cognome:</label><br>
+            <input type="text" id="nome" name="nome_cognome" required class="form-input"><br><br>
+
+            <!-- Campo: Email -->
+            <label for="email" class="form-label">Email:</label><br>
+            <input type="email" id="email" name="email" required class="form-input"><br><br>
+
+            <!-- Campo: Tipologia di richiesta -->
+            <label for="tipologia" class="form-label">Tipologia di richiesta:</label><br>
+            <select id="tipologia" name="tipologia" required class="form-select">
+                <option value="">-- Seleziona --</option>
+                <option value="studio">Studio</option>
+                <option value="progetto">Progetto</option>
+                <option value="informatica">Informatica</option>
+                <option value="altro">Altro</option>
+            </select><br><br>
+
+            <!-- Campo: Descrizione della richiesta -->
+            <label for="descrizione" class="form-label">Descrizione della richiesta:</label><br>
+            <textarea id="descrizione" name="descrizione" rows="5" cols="40" required class="form-textarea"></textarea><br><br>
+
+            <!-- Campo: Data preferita per essere ricontattati -->
+            <label for="data" class="form-label">Data preferita per essere ricontattati:</label><br>
+            <input type="date" id="data" name="data_preferita" class="form-date"><br><br>
+
+            <!-- Bottone di invio richiesta -->
+            <button type="submit" class="btn-submit">Invia richiesta</button>
+        </form>
+    </div>
+</body>
+</html>
